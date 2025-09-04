@@ -17,8 +17,16 @@ This folder is showing how to:
 To get started with this application, follow these steps:
 
 1. Ensure you have Pinecone API key set in your environment variables as `PINECONE_API_KEY` and `PINECONE_ENV`.
-2. Run the `app.py` script to start the Chainlit server.
-3. Interact with the application through the Chainlit interface to upload a file and ask questions.
+2. 
+python -m venv venv
+.\venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+3. Run the `app.py` script to start the Chainlit server.
+4. Run the Chainlit app in watch mode:
+   ```
+   chainlit run app.py -w
+   ```
+5. Interact with the application through the Chainlit interface to upload a file and ask questions.
 
 ### Key Functions
 
@@ -29,6 +37,3 @@ To get started with this application, follow these steps:
 
 To run the example, follow the instructions of the [main readme](/README.md).
 
-![Rendering](./rendering.png)
-Title: PDF Question & Answering
-Tags: [pdf, q&a]
