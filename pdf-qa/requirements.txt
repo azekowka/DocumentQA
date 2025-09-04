@@ -3,3 +3,4 @@ pinecone-client==2.2.1
 tiktoken
 langchain
 chainlit
+openai
